@@ -22,8 +22,10 @@ export default function Home() {
 
         <div className={styles.grid}>
          <input typeof="text" placeholder="Name"></input>
-        
+         <input typeof="number" placeholder="Phone"></input>
+         <button type="submit" >I need Scholarship</button>
         </div>
+
       </main>
 
       <footer className={styles.footer}>
